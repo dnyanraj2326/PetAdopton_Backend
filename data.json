@@ -1,0 +1,12 @@
+{"pets":[
+    {
+        "id": 1,
+        "title": "Sunny",
+        "price": 20,
+        "quantity": 3,
+        "total": 60,
+        "discountPercentage": 8.71,
+        "discountedPrice": 55
+      }
+]}
+
