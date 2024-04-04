@@ -5,6 +5,7 @@ const petsrouter = require('./routes/Pets')
 const userrouter = require('./routes/User')
 const petOwnerrouter = require('./routes/PetsOwner')
 const userLogin = require('./routes/UserAuth')
+const locations = require('./routes/Locations')
 
 main().catch(err => console.log(err));
 async function main() {
@@ -21,6 +22,8 @@ app.use('/pets',petsrouter)
 app.use('/users',userrouter)
 app.use('/petOwner',petOwnerrouter)
 app.use('/user/auth',userLogin)
+app.use('/locations',locations)
+
 
 
 
